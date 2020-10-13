@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Jun, 2020, 6:03:13 PM
+    Author     : IDBI
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Jun, 2020, 1:34:25 AM
+    Author     : IDBI
+*/
+ body {
+  height: 100%;
+  width: 100%;
+  margin: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: url("http://getwallpapers.com/wallpaper/full/6/5/8/547710.jpg");  
+  background-size:cover;  background-position: center;    color:white;
+  position : relative;
+  min-height: 90vh;
+}
+ 
+.container {
+  background: rgba(0, 0, 0);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+
+  display: flex;
+}
+
+.left-column {
+  width: 45%;
+  margin-top: 15px;
+  position: relative;
+}
+ 
+.right-column {
+  width: 55%;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.trailer{
+    width: 560px;
+    height: 315px;
+}
+
+iframe {
+    width: 120%;
+    height:120%
+}
+
+.synopsis{
+    margin-top: 80px;
+    height: auto;
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+image {
+  width: 50px;
+  height: 30px;
+  
+  left: 0;
+  top: 0;
+  
+  transition: all 0.3s ease;  
+}
+
+.movie-poster{
+    
+    margin-bottom: 20px;
+}
+
+.movie-desc{
+    
+    margin-bottom: 20px;
+}
+
+
+.starcast{
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+}
+
+.director{
+    
+    margin-bottom: 20px;
+}
+
+.book{
+    
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: white;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 40px;
+  color: #defccc;
+  letter-spacing: -2px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  line-height: 24px;
+}
+
+span {
+  font-size: 20px;
+  color: #faf6ac;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 300;
+  color: #caf3fc;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+main 
+    {
+        width: 90vw;
+        /*height: 90vh;*/
+        color:white;
+        margin: 0 auto;
+        padding: 30px 20px;
+        min-height: 90vh;
+    }
+    footer 
+    {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }

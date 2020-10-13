@@ -1,0 +1,63 @@
+
+    *    
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar-text
+            {
+                font-family : "Lobster";
+                font-size: 30px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-right: 6px;
+            }
+            .navbar navbar-expand-lg navbar-dark bg-dark
+            {
+                background-color: rgb(128,0,0);
+            }
+            .container-fluid
+            {
+                margin-top: 50px;
+            }
+    
+    html,body 
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        background: url("http://getwallpapers.com/wallpaper/full/6/5/8/547710.jpg");  
+        background-size:cover;  background-position: center;
+        position: relative;
+        margin: 0;
+        height: 100%;
+  /* add back negative margin value */
+        /*padding: 0.25rem 9999rem;*/
+        /*min-height: 100vh;*/
+    }
+    main 
+    {
+        color: white;
+        width: 90vw;
+        min-height: 90vh;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+              /* min-height: calc(100vh - 211px - 58px); */
+    }
+    footer 
+    {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        /* position: fixed;
+        z-index: 1; */
+    }
+    
+    
